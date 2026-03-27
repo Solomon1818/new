@@ -32,14 +32,14 @@ if __name__ == '__main__':
         username='admin',
         password='admin123',     # Change this!
         role='admin',
-        name='Admin'
+        name='Solomon'
     )
     # Create a teacher account
     create_user(
         username='teacher1',
         password='teacher123',   # Change this!
         role='teacher',
-        name='Teacher One'
+        name='Teacher1'
     )
     print("\nDone! Please change the passwords after first login.")
     print("Login at: http://localhost:5000/login")
